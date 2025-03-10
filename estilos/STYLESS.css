@@ -1,3 +1,5 @@
+
+
 .contain{
     background-color: #ddb7ab;
     width: 100%;
@@ -95,13 +97,10 @@
 }
 .DIVISION3{
     display: flex;
+    justify-content: space-around;
     background-color: #cdd4b1;
     width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    flex-direction: row;
+    padding-bottom: 1rem;
 }
 .THES{
     text-align: center;
@@ -109,14 +108,14 @@
     background-color: #cdd4b1;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    width: 100%;
 }
 .IMAGE1{
     background-color: #efd9d1;
     text-align: center;
-    width: 25%;
+    width: 100%;
     height: 150px;
     border: 1px solid black;
-    align-items: center;
 }
 .IMAGE2{
     background-color: #efd9d1;
@@ -132,25 +131,25 @@
     height: 150px;
     border: 1px solid black;
 }
-.DIVISIONF{
+/*.DIVISIONF{
     background-color: #cdd4b1;
     padding-top: 2rem;
     padding-bottom: 2rem;
     justify-content: space-evenly;
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     width: 100%;
-}
+    align-items: center;
+}*/
 .spaceb{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
     height: 10px;
-    margin: 0.5rem 0;
-    width: 10%; 
-    margin-left: 80px;
+    width: 40%;
 }
 .linee{
-    color: white;
-    margin-left: 80px;
+    color: rgb(255, 255, 255);
+
 }
 .CAT{
     margin-top: 1rem;
@@ -160,5 +159,9 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 80px;
+}
+.imagen{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
 }
