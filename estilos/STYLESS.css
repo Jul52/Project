@@ -24,24 +24,24 @@
     width: 58%;
     
 }
-.div1{
+#div1{
     background-color: white;
     width: 28%;
     text-align: center;
-    padding-left: 50px;
+    padding-left: 30px;
 }
-.div2{
+#div2{
     background-color: white;
     width: 28%;
     text-align: center;
-    padding-left: 50px;
+    padding-left: 30px;
     margin-bottom: 5px;
 }
 .ctaa{
+    cursor: pointer;
     background-color: #999B84;
     width: 10%;
     text-align: center;
-    margin-left: 95px;
     border: solid black 1px;
 }
 .sect2{
@@ -60,11 +60,105 @@
     margin-bottom: auto;
 }
 .cttaa{
+    cursor: pointer;
     background-color: #999B84;
     width: 10%;
     height: 45px;
     text-align: center;
-    margin-left: 95px;
     border: solid black 1px;
-    margin-left: 562px;
+    margin-left: 540px
+    
+}
+.navv{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.sect3{
+    width: 28%;
+    height: 250px;
+    border: 1px solid black;
+    margin-left: 50px;
+    text-align: center;
+    background-color: #999B84;
+}
+.sect4{
+    
+    margin-left: 300px;
+    width: 58%;
+}
+.CATTT{
+    background-color: #999B84;
+    width: 10%;
+    text-align: center;
+    border: solid black 1px;
+    cursor: pointer;
+}
+.DIVISION3{
+    display: flex;
+    background-color: #cdd4b1;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: row;
+}
+.THES{
+    text-align: center;
+    align-self: auto;
+    background-color: #cdd4b1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.IMAGE1{
+    background-color: #efd9d1;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    border: 1px solid black;
+    align-items: center;
+}
+.IMAGE2{
+    background-color: #efd9d1;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    border: 1px solid black;
+}
+.IMAGE3{
+    background-color: #efd9d1;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    border: 1px solid black;
+}
+.DIVISIONF{
+    background-color: #cdd4b1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+.spaceb{
+    background-color: white;
+    height: 10px;
+    margin: 0.5rem 0;
+    width: 10%; 
+    margin-left: 80px;
+}
+.linee{
+    color: white;
+    margin-left: 80px;
+}
+.CAT{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #a4a490;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 80px;
 }
